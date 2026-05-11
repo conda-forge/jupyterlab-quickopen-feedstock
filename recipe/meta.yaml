@@ -25,6 +25,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - jupyter_server >=2.4.2,<3
+    - pathspec >=0.10
 
 test:
   imports:
