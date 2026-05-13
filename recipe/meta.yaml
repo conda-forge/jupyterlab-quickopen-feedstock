@@ -1,5 +1,5 @@
 {% set name = "jupyterlab-quickopen" %}
-{% set version = "2.2.0" %}
+{% set version = "2.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jupyterlab_quickopen-{{ version }}.tar.gz
-  sha256: f565bc565359a644933a6715ca3171a4912d277ef993b3d6f8331e9ef399831e
+  sha256: 116440b5546ec62e9f1e91320f79ce4febb812347f2f09ef140cd1081f526163
 
 build:
   noarch: python
